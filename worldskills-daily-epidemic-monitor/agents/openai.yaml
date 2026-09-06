@@ -1,0 +1,3 @@
+interface:
+  display_name: "WorldSkills 疫情日报"
+  short_description: "生成可追溯的境外传染病疫情日报"
