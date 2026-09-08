@@ -1,0 +1,4 @@
+interface:
+  display_name: "世赛境外疫情报告套件"
+  short_description: "融合本地爬取与实时网络证据生成境外疫情日报和多国摸底报告"
+  default_prompt: "使用 $worldskills-epidemic-report-suite 生成指定日期的境外传染病监测日报。"
