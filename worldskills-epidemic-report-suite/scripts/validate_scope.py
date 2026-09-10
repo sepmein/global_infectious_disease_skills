@@ -17,9 +17,16 @@ sys.stderr.reconfigure(encoding="utf-8")
 
 SKILL_DIR = Path(__file__).resolve().parents[1]
 DEFAULT_PARTICIPANTS = SKILL_DIR / "references" / "participants.csv"
-DEFAULT_DISEASES = SKILL_DIR / "references" / "priority-diseases.csv"
+DEFAULT_DISEASES = SKILL_DIR / "references" / "priority-diseases.xlsx"
 PARTICIPANT_COLUMNS = {"地区（代码 - 英文名称）", "中文标准名称"}
 DISEASE_COLUMN = "重点病种"
+CATEGORY_COLUMN = "所属分类"
+ALLOWED_CATEGORIES = {
+    "蚊媒及其他虫媒传染病",
+    "呼吸道传染病",
+    "肠道及食源性传染病",
+    "新发少见及高致病性传染病",
+}
 CODE_PATTERN = re.compile(r"^[A-Z0-9]{2,3}$")
 
 
@@ -87,16 +94,28 @@ def validate_participants(path: Path) -> list[dict[str, str]]:
     return countries
 
 
-def validate_diseases(path: Path) -> list[str]:
+def validate_diseases(path: Path) -> list[dict[str, str]]:
     rows = read_rows(path)
-    if not rows or DISEASE_COLUMN not in rows[0]:
-        raise ValueError(f"重点病种配置缺少字段：{DISEASE_COLUMN}")
-    diseases = [row.get(DISEASE_COLUMN, "").strip() for row in rows]
+    required = {DISEASE_COLUMN, CATEGORY_COLUMN}
+    missing = required - (set(rows[0]) if rows else set())
+    if missing:
+        raise ValueError(f"重点病种配置缺少字段：{'、'.join(sorted(missing))}")
+    diseases = [
+        {
+            "disease": row.get(DISEASE_COLUMN, "").strip(),
+            "category": row.get(CATEGORY_COLUMN, "").strip(),
+        }
+        for row in rows
+    ]
     errors: list[str] = []
-    if not diseases or any(not disease for disease in diseases):
-        errors.append("重点病种配置为空或包含空值")
-    if len(diseases) != len(set(diseases)):
+    names = [row["disease"] for row in diseases]
+    if not diseases or any(not row["disease"] or not row["category"] for row in diseases):
+        errors.append("重点病种配置为空，或重点病种/所属分类包含空值")
+    if len(names) != len(set(names)):
         errors.append("重点病种配置包含重复名称")
+    invalid_categories = sorted({row["category"] for row in diseases if row["category"] not in ALLOWED_CATEGORIES})
+    if invalid_categories:
+        errors.append(f"重点病种配置包含模板外分类：{'、'.join(invalid_categories)}")
     if errors:
         raise ValueError("\n".join(errors))
     return diseases
@@ -121,7 +140,10 @@ def main() -> int:
                 "countries": countries,
                 "diseases_file": str(args.diseases.resolve()),
                 "priority_disease_count": len(diseases),
-                "priority_diseases": diseases,
+                "priority_diseases": [row["disease"] for row in diseases],
+                "disease_categories": {
+                    row["disease"]: row["category"] for row in diseases
+                },
             },
             ensure_ascii=False,
             indent=2,

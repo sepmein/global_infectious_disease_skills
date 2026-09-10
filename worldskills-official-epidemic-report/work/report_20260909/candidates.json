@@ -1,0 +1,857 @@
+{
+  "participants_count": 120,
+  "candidates": {
+    "AE": {
+      "name_zh": "阿拉伯联合酋长国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://mohap.gov.ae/en/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "AL": {
+      "name_zh": "阿尔巴尼亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://shendetesia.gov.al/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "AM": {
+      "name_zh": "亚美尼亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.moh.am/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "AO": {
+      "name_zh": "安哥拉",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://minsa.gov.ao/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "AR": {
+      "name_zh": "阿根廷",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.argentina.gob.ar/salud",
+      "rc_org": "PAHO流行病学警报与更新",
+      "rc_url": "https://www.paho.org/en/epidemiological-alerts-and-updates"
+    },
+    "AT": {
+      "name_zh": "奥地利",
+      "org_priority": "奥地利卫生与食品安全局 AGES",
+      "url": "https://www.ages.at/en/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "AU": {
+      "name_zh": "澳大利亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.health.gov.au/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "AZ": {
+      "name_zh": "阿塞拜疆",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.sehiyye.gov.az/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "BB": {
+      "name_zh": "巴巴多斯",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://health.gov.bb/",
+      "rc_org": "PAHO流行病学警报与更新",
+      "rc_url": "https://www.paho.org/en/epidemiological-alerts-and-updates"
+    },
+    "BD": {
+      "name_zh": "孟加拉国",
+      "org_priority": "孟加拉国流行病学、疾病控制与研究所 IEDCR",
+      "url": "https://iedcr.gov.bd/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "BE": {
+      "name_zh": "比利时",
+      "org_priority": "比利时 Sciensano",
+      "url": "https://www.sciensano.be/en",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "BH": {
+      "name_zh": "巴林王国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.moh.gov.bh/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "BN": {
+      "name_zh": "文莱达鲁萨兰国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://moh.gov.bn/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "BR": {
+      "name_zh": "巴西",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.gov.br/saude/pt-br",
+      "rc_org": "PAHO流行病学警报与更新",
+      "rc_url": "https://www.paho.org/en/epidemiological-alerts-and-updates"
+    },
+    "CA": {
+      "name_zh": "加拿大",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.canada.ca/en/public-health.html",
+      "rc_org": "PAHO流行病学警报与更新",
+      "rc_url": "https://www.paho.org/en/epidemiological-alerts-and-updates"
+    },
+    "CD": {
+      "name_zh": "刚果民主共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.sante.gouv.cd/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "CH": {
+      "name_zh": "瑞士",
+      "org_priority": "瑞士联邦公共卫生局 FOPH",
+      "url": "https://www.bag.admin.ch/en",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "CI": {
+      "name_zh": "科特迪瓦",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.sante.gouv.ci/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "CL": {
+      "name_zh": "智利",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.minsal.cl/",
+      "rc_org": "PAHO流行病学警报与更新",
+      "rc_url": "https://www.paho.org/en/epidemiological-alerts-and-updates"
+    },
+    "CM": {
+      "name_zh": "喀麦隆",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.minsante.cm/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "CN": {
+      "name_zh": "中国",
+      "org_priority": "中国疾病预防控制中心",
+      "url": "https://www.chinacdc.cn/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "CO": {
+      "name_zh": "哥伦比亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.minsalud.gov.co/",
+      "rc_org": "PAHO流行病学警报与更新",
+      "rc_url": "https://www.paho.org/en/epidemiological-alerts-and-updates"
+    },
+    "CR": {
+      "name_zh": "哥斯达黎加",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.ministeriodesalud.go.cr/",
+      "rc_org": "PAHO流行病学警报与更新",
+      "rc_url": "https://www.paho.org/en/epidemiological-alerts-and-updates"
+    },
+    "CY": {
+      "name_zh": "塞浦路斯",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.moh.gov.cy/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "CZ": {
+      "name_zh": "捷克",
+      "org_priority": "捷克国家公共卫生研究所 SZU",
+      "url": "https://szu.gov.cz/en/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "DE": {
+      "name_zh": "德国",
+      "org_priority": "德国罗伯特·科赫研究所 RKI",
+      "url": "https://www.rki.de/EN/Home/homepage_node.html",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "DK": {
+      "name_zh": "丹麦",
+      "org_priority": "丹麦国立血清研究所 SSI",
+      "url": "https://en.ssi.dk/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "DO": {
+      "name_zh": "多米尼加共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.msp.gob.do/",
+      "rc_org": "PAHO流行病学警报与更新",
+      "rc_url": "https://www.paho.org/en/epidemiological-alerts-and-updates"
+    },
+    "DZ": {
+      "name_zh": "阿尔及利亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.sante.gov.dz/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "EE": {
+      "name_zh": "爱沙尼亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.sm.ee/en",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "EG": {
+      "name_zh": "埃及",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.mohp.gov.eg/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "ES": {
+      "name_zh": "西班牙",
+      "org_priority": "西班牙卡洛斯三世卫生研究所 ISCIII",
+      "url": "https://www.isciii.es/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "ET": {
+      "name_zh": "埃塞俄比亚",
+      "org_priority": "埃塞俄比亚公共卫生研究所 EPHI",
+      "url": "https://ephi.gov.et/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "FI": {
+      "name_zh": "芬兰",
+      "org_priority": "芬兰健康与福利研究院 THL",
+      "url": "https://thl.fi/en/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "FR": {
+      "name_zh": "法国",
+      "org_priority": "法国公共卫生署",
+      "url": "https://www.santepubliquefrance.fr/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "GB": {
+      "name_zh": "英国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.gov.uk/government/organisations/department-of-health-and-social-care",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "GE": {
+      "name_zh": "格鲁吉亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.moh.gov.ge/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "GH": {
+      "name_zh": "加纳",
+      "org_priority": "加纳卫生服务机构",
+      "url": "https://ghs.gov.gh/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "GR": {
+      "name_zh": "希腊",
+      "org_priority": "希腊国家公共卫生组织 EODY",
+      "url": "https://eody.gov.gr/en/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "HK": {
+      "name_zh": "中国香港",
+      "org_priority": "香港卫生防护中心 CHP",
+      "url": "https://www.chp.gov.hk/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "HR": {
+      "name_zh": "克罗地亚",
+      "org_priority": "克罗地亚公共卫生研究所 HZJZ",
+      "url": "https://www.hzjz.hr/en/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "HU": {
+      "name_zh": "匈牙利",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://kormany.hu/kormanyzat/belugyminiszterium",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "ID": {
+      "name_zh": "印度尼西亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "http://www.kemkes.go.id/id/home",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "IE": {
+      "name_zh": "爱尔兰",
+      "org_priority": "爱尔兰卫生服务执行局 HPSC",
+      "url": "https://www.hpsc.ie/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "IN": {
+      "name_zh": "印度",
+      "org_priority": "印度综合疾病监测项目 IDSP",
+      "url": "https://idsp.mohfw.gov.in/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "IO": {
+      "name_zh": "英属印度洋领地",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.gov.uk/world/british-indian-ocean-territory/news",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "IR": {
+      "name_zh": "伊朗伊斯兰共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://behdasht.gov.ir/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "IT": {
+      "name_zh": "意大利",
+      "org_priority": "意大利国家卫生研究院 ISS",
+      "url": "https://www.iss.it/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "JM": {
+      "name_zh": "牙买加",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.moh.gov.jm/",
+      "rc_org": "PAHO流行病学警报与更新",
+      "rc_url": "https://www.paho.org/en/epidemiological-alerts-and-updates"
+    },
+    "JO": {
+      "name_zh": "约旦",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://moh.gov.jo/Default/Ar",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "JP": {
+      "name_zh": "日本",
+      "org_priority": "日本健康危机管理研究机构 JIHS",
+      "url": "https://id-info.jihs.go.jp/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "KE": {
+      "name_zh": "肯尼亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.health.go.ke/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "KG": {
+      "name_zh": "吉尔吉斯斯坦",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://med.kg/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "KP": {
+      "name_zh": "朝鲜民主主义人民共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.who.int/dprkorea/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "KR": {
+      "name_zh": "韩国",
+      "org_priority": "韩国疾病管理厅 KDCA",
+      "url": "https://www.kdca.go.kr/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "KW": {
+      "name_zh": "科威特",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.moh.gov.kw/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "KZ": {
+      "name_zh": "哈萨克斯坦",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.gov.kz/memleket/entities/dsm",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "LA": {
+      "name_zh": "老挝人民民主共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://moh.gov.la/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "LB": {
+      "name_zh": "黎巴嫩",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.moph.gov.lb/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "LI": {
+      "name_zh": "列支敦士登公国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.llv.li/en/national-administration/office-of-health",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "LK": {
+      "name_zh": "斯里兰卡",
+      "org_priority": "斯里兰卡流行病学单位",
+      "url": "https://www.epid.gov.lk/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "LR": {
+      "name_zh": "利比里亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://moh.gov.lr/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "LU": {
+      "name_zh": "卢森堡",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://santesecu.public.lu/en.html",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "LV": {
+      "name_zh": "拉脱维亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.vm.gov.lv/lv",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "MA": {
+      "name_zh": "摩洛哥",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.sante.gov.ma/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "MD": {
+      "name_zh": "摩尔多瓦共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://ms.gov.md/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "MN": {
+      "name_zh": "蒙古",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://moh.gov.mn/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "MO": {
+      "name_zh": "中国澳门",
+      "org_priority": "澳门卫生局",
+      "url": "https://www.ssm.gov.mo/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "MT": {
+      "name_zh": "马耳他",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://health.gov.mt/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "MW": {
+      "name_zh": "马拉维",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.health.gov.mw/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "MX": {
+      "name_zh": "墨西哥",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.gob.mx/salud",
+      "rc_org": "PAHO流行病学警报与更新",
+      "rc_url": "https://www.paho.org/en/epidemiological-alerts-and-updates"
+    },
+    "MY": {
+      "name_zh": "马来西亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.moh.gov.my/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "MZ": {
+      "name_zh": "莫桑比克",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.misau.gov.mz/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "NA": {
+      "name_zh": "纳米比亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://mhss.gov.na/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "NG": {
+      "name_zh": "尼日利亚",
+      "org_priority": "尼日利亚疾病控制中心 NCDC",
+      "url": "https://ncdc.gov.ng/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "NI": {
+      "name_zh": "尼加拉瓜",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.minsa.gob.ni/",
+      "rc_org": "PAHO流行病学警报与更新",
+      "rc_url": "https://www.paho.org/en/epidemiological-alerts-and-updates"
+    },
+    "NL": {
+      "name_zh": "荷兰",
+      "org_priority": "荷兰国家公共卫生与环境研究院 RIVM",
+      "url": "https://www.rivm.nl/en",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "NO": {
+      "name_zh": "挪威",
+      "org_priority": "挪威公共卫生研究院 FHI",
+      "url": "https://www.fhi.no/en/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "NP": {
+      "name_zh": "尼泊尔",
+      "org_priority": "尼泊尔流行病学与疾病控制司 EDCD",
+      "url": "https://edcd.gov.np/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "NZ": {
+      "name_zh": "新西兰",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.health.govt.nz/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "OM": {
+      "name_zh": "阿曼",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.moh.gov.om/ar",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "PH": {
+      "name_zh": "菲律宾",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://doh.gov.ph/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "PK": {
+      "name_zh": "巴基斯坦",
+      "org_priority": "巴基斯坦国立卫生研究院 NIH",
+      "url": "https://www.nih.org.pk/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "PL": {
+      "name_zh": "波兰",
+      "org_priority": "波兰国家公共卫生研究院 PZH",
+      "url": "https://www.pzh.gov.pl/energia/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "PS": {
+      "name_zh": "巴勒斯坦",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://site.moh.ps/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "PT": {
+      "name_zh": "葡萄牙",
+      "org_priority": "葡萄牙卫生总局 DGS",
+      "url": "https://www.dgs.pt/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "PY": {
+      "name_zh": "巴拉圭",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.mspbs.gov.py/",
+      "rc_org": "PAHO流行病学警报与更新",
+      "rc_url": "https://www.paho.org/en/epidemiological-alerts-and-updates"
+    },
+    "QA": {
+      "name_zh": "卡塔尔",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.moph.gov.qa/arabic/Pages/default.aspx",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "RO": {
+      "name_zh": "罗马尼亚",
+      "org_priority": "罗马尼亚国家公共卫生研究所 INSP",
+      "url": "https://insp.gov.ro/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "RS": {
+      "name_zh": "塞尔维亚",
+      "org_priority": "塞尔维亚巴图特公共卫生研究所",
+      "url": "https://www.batut.org.rs/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "RU": {
+      "name_zh": "俄罗斯",
+      "org_priority": "俄罗斯消费者权益保护和公益监督局 Rospotrebnadzor",
+      "url": "https://www.rospotrebnadzor.ru/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "RW": {
+      "name_zh": "卢旺达",
+      "org_priority": "卢旺达生物医学中心 RBC",
+      "url": "https://rbc.gov.rw/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "SA": {
+      "name_zh": "沙特阿拉伯",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.moh.gov.sa/pages/default.aspx",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "SD": {
+      "name_zh": "苏丹",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://fmoh.gov.sd/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "SE": {
+      "name_zh": "瑞典",
+      "org_priority": "瑞典公共卫生局",
+      "url": "https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "SG": {
+      "name_zh": "新加坡",
+      "org_priority": "新加坡传染病管理局 CDA",
+      "url": "https://www.cda.gov.sg/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "SI": {
+      "name_zh": "斯洛文尼亚",
+      "org_priority": "斯洛文尼亚国家公共卫生研究所 NIJZ",
+      "url": "https://nijz.si/en/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "SK": {
+      "name_zh": "斯洛伐克",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.health.gov.sk/Titulka",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "SY": {
+      "name_zh": "阿拉伯叙利亚共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://moh.gov.sy/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "SZ": {
+      "name_zh": "斯威士兰",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.gov.sz/index.php/ministries-departments/ministry-of-health",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "TH": {
+      "name_zh": "泰国",
+      "org_priority": "泰国疾病控制厅 DDC",
+      "url": "https://ddc.moph.go.th/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "TN": {
+      "name_zh": "突尼斯",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.sante.gov.tn/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "TR": {
+      "name_zh": "土耳其",
+      "org_priority": "土耳其公共卫生总局",
+      "url": "https://hsgm.saglik.gov.tr/",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "TT": {
+      "name_zh": "特立尼达和多巴哥",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://health.gov.tt/",
+      "rc_org": "PAHO流行病学警报与更新",
+      "rc_url": "https://www.paho.org/en/epidemiological-alerts-and-updates"
+    },
+    "TW": {
+      "name_zh": "中国台北",
+      "org_priority": "台湾疾病管制署 CDC",
+      "url": "https://www.cdc.gov.tw/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "TZ": {
+      "name_zh": "坦桑尼亚联合共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.moh.go.tz/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "UA": {
+      "name_zh": "乌克兰",
+      "org_priority": "乌克兰公共卫生中心 PHC",
+      "url": "https://phc.org.ua/en",
+      "rc_org": "ECDC每周威胁报告",
+      "rc_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports"
+    },
+    "UG": {
+      "name_zh": "乌干达",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.health.go.ug/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "US": {
+      "name_zh": "美利坚合众国",
+      "org_priority": "美国疾病控制与预防中心 CDC",
+      "url": "https://www.cdc.gov/",
+      "rc_org": "PAHO流行病学警报与更新",
+      "rc_url": "https://www.paho.org/en/epidemiological-alerts-and-updates"
+    },
+    "UZ": {
+      "name_zh": "乌兹别克斯坦",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://gov.uz/en/ssv",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "VE": {
+      "name_zh": "委内瑞拉玻利瓦尔共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://mpps.gob.ve",
+      "rc_org": "PAHO流行病学警报与更新",
+      "rc_url": "https://www.paho.org/en/epidemiological-alerts-and-updates"
+    },
+    "VN": {
+      "name_zh": "越南",
+      "org_priority": "越南疾病控制中心 VNCDC",
+      "url": "https://vncdc.gov.vn/",
+      "rc_org": "WHO疾病暴发新闻",
+      "rc_url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    "ZA": {
+      "name_zh": "南非",
+      "org_priority": "南非国家传染病研究所 NICD",
+      "url": "https://www.nicd.ac.za/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "ZM": {
+      "name_zh": "赞比亚",
+      "org_priority": "赞比亚国家公共卫生研究所 ZNPHI",
+      "url": "https://znphi.co.zm/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    },
+    "ZW": {
+      "name_zh": "津巴布韦",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "url": "https://www.mohcc.gov.zw/",
+      "rc_org": "Africa CDC疾病暴发页",
+      "rc_url": "https://africacdc.org/disease-outbreak/"
+    }
+  },
+  "discovered": {
+    "BS": {
+      "name_zh": "巴哈马",
+      "url": "https://www.mohw.gov.bs/",
+      "org": "Ministry of Health & Wellness (Bahamas)",
+      "type": "卫生部/卫生主管部门",
+      "term": "Bahamas Ministry of Health official website public health authority",
+      "rc_org": "PAHO/WHO Americas",
+      "rc_url": "https://www.paho.org/en"
+    },
+    "FO": {
+      "name_zh": "法罗群岛",
+      "url": "https://www.hmr.fo/",
+      "org": "Heilsumálaráðið (Ministry of Health, Faroe Islands)",
+      "type": "卫生部/卫生主管部门",
+      "term": "Faroe Islands health authority official website Department of Health",
+      "rc_org": "WHO Europe",
+      "rc_url": "https://www.who.int/europe"
+    },
+    "KH": {
+      "name_zh": "柬埔寨",
+      "url": "https://cdcmoh.gov.kh/",
+      "org": "Department of Communicable Disease Control, Ministry of Health (Cambodia)",
+      "type": "国家CDC/法定监测机构",
+      "term": "Cambodia Ministry of Health communicable disease control official",
+      "rc_org": "WHO Western Pacific",
+      "rc_url": "https://www.who.int/westernpacific"
+    },
+    "KN": {
+      "name_zh": "圣基茨和尼维斯",
+      "url": "https://www.sknis.gov.kn/",
+      "org": "Ministry of Health (St. Kitts and Nevis)",
+      "type": "卫生部/卫生主管部门",
+      "term": "Saint Kitts and Nevis Ministry of Health official",
+      "rc_org": "PAHO/WHO Americas",
+      "rc_url": "https://www.paho.org/en"
+    },
+    "VG": {
+      "name_zh": "英属维尔京群岛",
+      "url": "https://www.gov.vg/",
+      "org": "Ministry of Health and Social Development (British Virgin Islands)",
+      "type": "卫生部/卫生主管部门",
+      "term": "British Virgin Islands Ministry of Health official website",
+      "rc_org": "PAHO/WHO Americas",
+      "rc_url": "https://www.paho.org/en"
+    }
+  }
+}

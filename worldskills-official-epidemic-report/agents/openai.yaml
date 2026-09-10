@@ -1,3 +1,3 @@
 interface:
   display_name: "Worldskills Official Epidemic Report"
-  short_description: "Help with Worldskills Official Epidemic Report tasks"
+  short_description: "生成限定范围疫情底表和报告，Word仅展示网络链接来源"

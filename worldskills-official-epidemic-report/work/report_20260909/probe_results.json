@@ -1,0 +1,1731 @@
+{
+  "probe_date": "2026-09-09",
+  "total_candidates": 115,
+  "results": {
+    "CL": {
+      "name_zh": "智利",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.minsal.cl/",
+      "region_cross_org": "PAHO流行病学警报与更新",
+      "region_cross_url": "https://www.paho.org/en/epidemiological-alerts-and-updates",
+      "probe": {
+        "url": "https://www.minsal.cl/",
+        "status": 403,
+        "final_url": "https://www.minsal.cl/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "CN": {
+      "name_zh": "中国",
+      "org_priority": "中国疾病预防控制中心",
+      "candidate_url": "https://www.chinacdc.cn/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.chinacdc.cn/",
+        "status": 200,
+        "final_url": "https://www.chinacdc.cn/",
+        "error": null,
+        "title": ">中国疾病预防控制中心",
+        "redirected": false
+      }
+    },
+    "CR": {
+      "name_zh": "哥斯达黎加",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.ministeriodesalud.go.cr/",
+      "region_cross_org": "PAHO流行病学警报与更新",
+      "region_cross_url": "https://www.paho.org/en/epidemiological-alerts-and-updates",
+      "probe": {
+        "url": "https://www.ministeriodesalud.go.cr/",
+        "status": 403,
+        "final_url": "https://www.ministeriodesalud.go.cr/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "AL": {
+      "name_zh": "阿尔巴尼亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://shendetesia.gov.al/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://shendetesia.gov.al/",
+        "status": 200,
+        "final_url": "https://shendetesia.gov.al/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "BD": {
+      "name_zh": "孟加拉国",
+      "org_priority": "孟加拉国流行病学、疾病控制与研究所 IEDCR",
+      "candidate_url": "https://iedcr.gov.bd/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://iedcr.gov.bd/",
+        "status": null,
+        "final_url": "https://iedcr.gov.bd/",
+        "error": "证书错误",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "AR": {
+      "name_zh": "阿根廷",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.argentina.gob.ar/salud",
+      "region_cross_org": "PAHO流行病学警报与更新",
+      "region_cross_url": "https://www.paho.org/en/epidemiological-alerts-and-updates",
+      "probe": {
+        "url": "https://www.argentina.gob.ar/salud",
+        "status": 200,
+        "final_url": "https://www.argentina.gob.ar/salud",
+        "error": null,
+        "title": ">Ministerio de Salud | Argentina.gob.ar",
+        "redirected": false
+      }
+    },
+    "CI": {
+      "name_zh": "科特迪瓦",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.sante.gouv.ci/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://www.sante.gouv.ci/",
+        "status": 403,
+        "final_url": "https://www.sante.gouv.ci/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "BB": {
+      "name_zh": "巴巴多斯",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://health.gov.bb/",
+      "region_cross_org": "PAHO流行病学警报与更新",
+      "region_cross_url": "https://www.paho.org/en/epidemiological-alerts-and-updates",
+      "probe": {
+        "url": "https://health.gov.bb/",
+        "status": 200,
+        "final_url": "https://health.gov.bb/",
+        "error": null,
+        "title": ">Ministry of Health &amp; Wellness",
+        "redirected": false
+      }
+    },
+    "AM": {
+      "name_zh": "亚美尼亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.moh.am/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.moh.am/",
+        "status": 200,
+        "final_url": "https://www.moh.am/",
+        "error": null,
+        "title": ">MINISTRY OF HEALTH",
+        "redirected": false
+      }
+    },
+    "CM": {
+      "name_zh": "喀麦隆",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.minsante.cm/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://www.minsante.cm/",
+        "status": 200,
+        "final_url": "https://www.minsante.cm/",
+        "error": null,
+        "title": ">Portail Web du MINSANTE",
+        "redirected": false
+      }
+    },
+    "BE": {
+      "name_zh": "比利时",
+      "org_priority": "比利时 Sciensano",
+      "candidate_url": "https://www.sciensano.be/en",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.sciensano.be/en",
+        "status": 200,
+        "final_url": "https://www.sciensano.be/en",
+        "error": null,
+        "title": ">Homepage | sciensano.be",
+        "redirected": false
+      }
+    },
+    "DO": {
+      "name_zh": "多米尼加共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.msp.gob.do/",
+      "region_cross_org": "PAHO流行病学警报与更新",
+      "region_cross_url": "https://www.paho.org/en/epidemiological-alerts-and-updates",
+      "probe": {
+        "url": "https://www.msp.gob.do/",
+        "status": 200,
+        "final_url": "https://www.msp.gob.do/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "DK": {
+      "name_zh": "丹麦",
+      "org_priority": "丹麦国立血清研究所 SSI",
+      "candidate_url": "https://en.ssi.dk/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://en.ssi.dk/",
+        "status": 200,
+        "final_url": "https://en.ssi.dk/",
+        "error": null,
+        "title": ">Statens Serum Institut",
+        "redirected": false
+      }
+    },
+    "EG": {
+      "name_zh": "埃及",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.mohp.gov.eg/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://www.mohp.gov.eg/",
+        "status": null,
+        "final_url": "https://www.mohp.gov.eg/",
+        "error": "证书错误",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "BN": {
+      "name_zh": "文莱达鲁萨兰国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://moh.gov.bn/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://moh.gov.bn/",
+        "status": 200,
+        "final_url": "https://moh.gov.bn/",
+        "error": null,
+        "title": ">Ministry of Health - Brunei Darussalam",
+        "redirected": false
+      }
+    },
+    "CH": {
+      "name_zh": "瑞士",
+      "org_priority": "瑞士联邦公共卫生局 FOPH",
+      "candidate_url": "https://www.bag.admin.ch/en",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.bag.admin.ch/en",
+        "status": 200,
+        "final_url": "https://www.bag.admin.ch/en",
+        "error": null,
+        "title": ">Federal Office of Public Health FOPH",
+        "redirected": false
+      }
+    },
+    "GB": {
+      "name_zh": "英国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.gov.uk/government/organisations/department-of-health-and-social-care",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.gov.uk/government/organisations/department-of-health-and-social-care",
+        "status": 200,
+        "final_url": "https://www.gov.uk/government/organisations/department-of-health-and-social-care",
+        "error": null,
+        "title": ">Department of Health and Social Care - GOV.UK",
+        "redirected": false
+      }
+    },
+    "FR": {
+      "name_zh": "法国",
+      "org_priority": "法国公共卫生署",
+      "candidate_url": "https://www.santepubliquefrance.fr/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.santepubliquefrance.fr/",
+        "status": 403,
+        "final_url": "https://www.santepubliquefrance.fr/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "FI": {
+      "name_zh": "芬兰",
+      "org_priority": "芬兰健康与福利研究院 THL",
+      "candidate_url": "https://thl.fi/en/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://thl.fi/en/",
+        "status": 403,
+        "final_url": "https://thl.fi/en/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "EE": {
+      "name_zh": "爱沙尼亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.sm.ee/en",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.sm.ee/en",
+        "status": 200,
+        "final_url": "https://www.sm.ee/en",
+        "error": null,
+        "title": ">Front page | Sotsiaalministeerium",
+        "redirected": false
+      }
+    },
+    "GE": {
+      "name_zh": "格鲁吉亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.moh.gov.ge/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.moh.gov.ge/",
+        "status": 403,
+        "final_url": "https://www.moh.gov.ge/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "ET": {
+      "name_zh": "埃塞俄比亚",
+      "org_priority": "埃塞俄比亚公共卫生研究所 EPHI",
+      "candidate_url": "https://ephi.gov.et/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://ephi.gov.et/",
+        "status": 200,
+        "final_url": "https://ephi.gov.et/",
+        "error": null,
+        "title": ">Ethiopian Public Health Institute &#8211; To be Center of Excellence in Public Health in Africa",
+        "redirected": false
+      }
+    },
+    "ID": {
+      "name_zh": "印度尼西亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "http://www.kemkes.go.id/id/home",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "http://www.kemkes.go.id/id/home",
+        "status": 403,
+        "final_url": "http://www.kemkes.go.id/id/home",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "AO": {
+      "name_zh": "安哥拉",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://minsa.gov.ao/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://minsa.gov.ao/",
+        "status": 200,
+        "final_url": "https://minsa.gov.ao/",
+        "error": null,
+        "title": ">Ministério da Saúde",
+        "redirected": false
+      }
+    },
+    "IO": {
+      "name_zh": "英属印度洋领地",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.gov.uk/world/british-indian-ocean-territory/news",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.gov.uk/world/british-indian-ocean-territory/news",
+        "status": 200,
+        "final_url": "https://www.gov.uk/world/british-indian-ocean-territory/news",
+        "error": null,
+        "title": ">British Indian Ocean Territory and the UK - GOV.UK",
+        "redirected": false
+      }
+    },
+    "GR": {
+      "name_zh": "希腊",
+      "org_priority": "希腊国家公共卫生组织 EODY",
+      "candidate_url": "https://eody.gov.gr/en/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://eody.gov.gr/en/",
+        "status": 403,
+        "final_url": "https://eody.gov.gr/en/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "DE": {
+      "name_zh": "德国",
+      "org_priority": "德国罗伯特·科赫研究所 RKI",
+      "candidate_url": "https://www.rki.de/EN/Home/homepage_node.html",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.rki.de/EN/Home/homepage_node.html",
+        "status": 404,
+        "final_url": "https://www.rki.de/EN/Home/homepage_node.html",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "HU": {
+      "name_zh": "匈牙利",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://kormany.hu/kormanyzat/belugyminiszterium",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://kormany.hu/kormanyzat/belugyminiszterium",
+        "status": null,
+        "final_url": "https://kormany.hu/kormanyzat/belugyminiszterium",
+        "error": "证书错误",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "IE": {
+      "name_zh": "爱尔兰",
+      "org_priority": "爱尔兰卫生服务执行局 HPSC",
+      "candidate_url": "https://www.hpsc.ie/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.hpsc.ie/",
+        "status": 200,
+        "final_url": "https://www.hpsc.ie/",
+        "error": null,
+        "title": ">HPSC – Home",
+        "redirected": false
+      }
+    },
+    "JP": {
+      "name_zh": "日本",
+      "org_priority": "日本健康危机管理研究机构 JIHS",
+      "candidate_url": "https://id-info.jihs.go.jp/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://id-info.jihs.go.jp/",
+        "status": 200,
+        "final_url": "https://id-info.jihs.go.jp/",
+        "error": null,
+        "title": ">国立健康危機管理研究機構 感染症情報提供サイト",
+        "redirected": false
+      }
+    },
+    "AT": {
+      "name_zh": "奥地利",
+      "org_priority": "奥地利卫生与食品安全局 AGES",
+      "candidate_url": "https://www.ages.at/en/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.ages.at/en/",
+        "status": 200,
+        "final_url": "https://www.ages.at/en/",
+        "error": null,
+        "title": ">Austrian Agency for Health and Food Safety GmbH - AGES",
+        "redirected": false
+      }
+    },
+    "BR": {
+      "name_zh": "巴西",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.gov.br/saude/pt-br",
+      "region_cross_org": "PAHO流行病学警报与更新",
+      "region_cross_url": "https://www.paho.org/en/epidemiological-alerts-and-updates",
+      "probe": {
+        "url": "https://www.gov.br/saude/pt-br",
+        "status": 200,
+        "final_url": "https://www.gov.br/saude/pt-br",
+        "error": null,
+        "title": ">Ministério da Saúde",
+        "redirected": false
+      }
+    },
+    "KR": {
+      "name_zh": "韩国",
+      "org_priority": "韩国疾病管理厅 KDCA",
+      "candidate_url": "https://www.kdca.go.kr/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.kdca.go.kr/",
+        "status": 200,
+        "final_url": "https://www.kdca.go.kr/",
+        "error": null,
+        "title": ">질병관리청",
+        "redirected": false
+      }
+    },
+    "AZ": {
+      "name_zh": "阿塞拜疆",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.sehiyye.gov.az/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.sehiyye.gov.az/",
+        "status": 200,
+        "final_url": "https://www.sehiyye.gov.az/",
+        "error": null,
+        "title": ">Ana səhifə",
+        "redirected": false
+      }
+    },
+    "IT": {
+      "name_zh": "意大利",
+      "org_priority": "意大利国家卫生研究院 ISS",
+      "candidate_url": "https://www.iss.it/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.iss.it/",
+        "status": 200,
+        "final_url": "https://www.iss.it/",
+        "error": null,
+        "title": ">Home - ISS",
+        "redirected": false
+      }
+    },
+    "KZ": {
+      "name_zh": "哈萨克斯坦",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.gov.kz/memleket/entities/dsm",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.gov.kz/memleket/entities/dsm",
+        "status": 200,
+        "final_url": "https://www.gov.kz/memleket/entities/dsm",
+        "error": null,
+        "title": ">GOV.KZ - Единая платформа цифровых ресурсов государственных органов (ЕПЦР ГО)",
+        "redirected": false
+      }
+    },
+    "LA": {
+      "name_zh": "老挝人民民主共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://moh.gov.la/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://moh.gov.la/",
+        "status": null,
+        "final_url": "https://moh.gov.la/",
+        "error": "证书错误",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "HR": {
+      "name_zh": "克罗地亚",
+      "org_priority": "克罗地亚公共卫生研究所 HZJZ",
+      "candidate_url": "https://www.hzjz.hr/en/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.hzjz.hr/en/",
+        "status": 200,
+        "final_url": "https://www.hzjz.hr/en/",
+        "error": null,
+        "title": ">Croatian Institute of Public Health",
+        "redirected": false
+      }
+    },
+    "GH": {
+      "name_zh": "加纳",
+      "org_priority": "加纳卫生服务机构",
+      "candidate_url": "https://ghs.gov.gh/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://ghs.gov.gh/",
+        "status": 200,
+        "final_url": "https://ghs.gov.gh/",
+        "error": null,
+        "title": ">Ghana Health Service - Your Health Our Concern",
+        "redirected": false
+      }
+    },
+    "BH": {
+      "name_zh": "巴林王国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.moh.gov.bh/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.moh.gov.bh/",
+        "status": 200,
+        "final_url": "https://www.moh.gov.bh/",
+        "error": null,
+        "title": ">الصفحة الرئيسية - وزارة الصحة",
+        "redirected": false
+      }
+    },
+    "LI": {
+      "name_zh": "列支敦士登公国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.llv.li/en/national-administration/office-of-health",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.llv.li/en/national-administration/office-of-health",
+        "status": 403,
+        "final_url": "https://www.llv.li/en/national-administration/office-of-health",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "LK": {
+      "name_zh": "斯里兰卡",
+      "org_priority": "斯里兰卡流行病学单位",
+      "candidate_url": "https://www.epid.gov.lk/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.epid.gov.lk/",
+        "status": 200,
+        "final_url": "https://www.epid.gov.lk/",
+        "error": null,
+        "title": "> - Epidemiology Unit",
+        "redirected": false
+      }
+    },
+    "LB": {
+      "name_zh": "黎巴嫩",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.moph.gov.lb/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.moph.gov.lb/",
+        "status": 200,
+        "final_url": "https://www.moph.gov.lb/",
+        "error": null,
+        "title": "> Home Page",
+        "redirected": false
+      }
+    },
+    "ES": {
+      "name_zh": "西班牙",
+      "org_priority": "西班牙卡洛斯三世卫生研究所 ISCIII",
+      "candidate_url": "https://www.isciii.es/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.isciii.es/",
+        "status": 200,
+        "final_url": "https://www.isciii.es/en/",
+        "error": null,
+        "title": ">Instituto de Salud Carlos III. - ISCIII Portal Web",
+        "redirected": true
+      }
+    },
+    "KE": {
+      "name_zh": "肯尼亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.health.go.ke/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://www.health.go.ke/",
+        "status": 200,
+        "final_url": "https://www.health.go.ke/",
+        "error": null,
+        "title": ">MoH | Ministry of Health",
+        "redirected": false
+      }
+    },
+    "KG": {
+      "name_zh": "吉尔吉斯斯坦",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://med.kg/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://med.kg/",
+        "status": 200,
+        "final_url": "https://med.kg/",
+        "error": null,
+        "title": "th:text=\"${title != null ? title : 'Главная страница'}\">",
+        "redirected": false
+      }
+    },
+    "MN": {
+      "name_zh": "蒙古",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://moh.gov.mn/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://moh.gov.mn/",
+        "status": 200,
+        "final_url": "https://moh.gov.mn/",
+        "error": null,
+        "title": ">Эрүүл мэндийн яам",
+        "redirected": false
+      }
+    },
+    "LU": {
+      "name_zh": "卢森堡",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://santesecu.public.lu/en.html",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://santesecu.public.lu/en.html",
+        "status": 200,
+        "final_url": "https://santesecu.public.lu/en.html",
+        "error": null,
+        "title": ">Health portal",
+        "redirected": false
+      }
+    },
+    "MT": {
+      "name_zh": "马耳他",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://health.gov.mt/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://health.gov.mt/",
+        "status": 403,
+        "final_url": "https://health.gov.mt/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "MO": {
+      "name_zh": "中国澳门",
+      "org_priority": "澳门卫生局",
+      "candidate_url": "https://www.ssm.gov.mo/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.ssm.gov.mo/",
+        "status": 200,
+        "final_url": "https://www.ssm.gov.mo/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "MX": {
+      "name_zh": "墨西哥",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.gob.mx/salud",
+      "region_cross_org": "PAHO流行病学警报与更新",
+      "region_cross_url": "https://www.paho.org/en/epidemiological-alerts-and-updates",
+      "probe": {
+        "url": "https://www.gob.mx/salud",
+        "status": 403,
+        "final_url": "https://www.gob.mx/salud",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "MY": {
+      "name_zh": "马来西亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.moh.gov.my/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.moh.gov.my/",
+        "status": 403,
+        "final_url": "https://www.moh.gov.my/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "MZ": {
+      "name_zh": "莫桑比克",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.misau.gov.mz/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://www.misau.gov.mz/",
+        "status": null,
+        "final_url": "https://www.misau.gov.mz/",
+        "error": "证书错误",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "CZ": {
+      "name_zh": "捷克",
+      "org_priority": "捷克国家公共卫生研究所 SZU",
+      "candidate_url": "https://szu.gov.cz/en/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://szu.gov.cz/en/",
+        "status": 200,
+        "final_url": "https://szu.gov.cz/en/",
+        "error": null,
+        "title": ">National Institute of Public Health - SZÚ | Oficiální web Státního zdravotního ústavu v Praze",
+        "redirected": false
+      }
+    },
+    "CO": {
+      "name_zh": "哥伦比亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.minsalud.gov.co/",
+      "region_cross_org": "PAHO流行病学警报与更新",
+      "region_cross_url": "https://www.paho.org/en/epidemiological-alerts-and-updates",
+      "probe": {
+        "url": "https://www.minsalud.gov.co/",
+        "status": null,
+        "final_url": "https://www.minsalud.gov.co/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "CD": {
+      "name_zh": "刚果民主共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.sante.gouv.cd/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://www.sante.gouv.cd/",
+        "status": null,
+        "final_url": "https://www.sante.gouv.cd/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "CY": {
+      "name_zh": "塞浦路斯",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.moh.gov.cy/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.moh.gov.cy/",
+        "status": null,
+        "final_url": "https://www.moh.gov.cy/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "NO": {
+      "name_zh": "挪威",
+      "org_priority": "挪威公共卫生研究院 FHI",
+      "candidate_url": "https://www.fhi.no/en/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.fhi.no/en/",
+        "status": 200,
+        "final_url": "https://www.fhi.no/en/",
+        "error": null,
+        "title": ">Norwegian Institute of Public Health - NIPH",
+        "redirected": false
+      }
+    },
+    "NG": {
+      "name_zh": "尼日利亚",
+      "org_priority": "尼日利亚疾病控制中心 NCDC",
+      "candidate_url": "https://ncdc.gov.ng/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://ncdc.gov.ng/",
+        "status": 200,
+        "final_url": "https://ncdc.gov.ng/",
+        "error": null,
+        "title": ">Nigeria Centre for Disease Control and Prevention",
+        "redirected": false
+      }
+    },
+    "MW": {
+      "name_zh": "马拉维",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.health.gov.mw/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://www.health.gov.mw/",
+        "status": 200,
+        "final_url": "https://www.health.gov.mw/",
+        "error": null,
+        "title": ">Ministry of Health Malawi - Official Government Health website",
+        "redirected": false
+      }
+    },
+    "LV": {
+      "name_zh": "拉脱维亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.vm.gov.lv/lv",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.vm.gov.lv/lv",
+        "status": 200,
+        "final_url": "https://www.vm.gov.lv/lv",
+        "error": null,
+        "title": ">Sākumlapa | Veselības ministrija",
+        "redirected": false
+      }
+    },
+    "DZ": {
+      "name_zh": "阿尔及利亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.sante.gov.dz/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://www.sante.gov.dz/",
+        "status": null,
+        "final_url": "https://www.sante.gov.dz/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "NZ": {
+      "name_zh": "新西兰",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.health.govt.nz/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.health.govt.nz/",
+        "status": 403,
+        "final_url": "https://www.health.govt.nz/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "NA": {
+      "name_zh": "纳米比亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://mhss.gov.na/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://mhss.gov.na/",
+        "status": null,
+        "final_url": "https://mhss.gov.na/",
+        "error": "证书错误",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "PS": {
+      "name_zh": "巴勒斯坦",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://site.moh.ps/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://site.moh.ps/",
+        "status": null,
+        "final_url": "https://site.moh.ps/",
+        "error": "证书错误",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "PH": {
+      "name_zh": "菲律宾",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://doh.gov.ph/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://doh.gov.ph/",
+        "status": 403,
+        "final_url": "https://doh.gov.ph/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "PL": {
+      "name_zh": "波兰",
+      "org_priority": "波兰国家公共卫生研究院 PZH",
+      "candidate_url": "https://www.pzh.gov.pl/energia/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.pzh.gov.pl/energia/",
+        "status": 403,
+        "final_url": "https://www.pzh.gov.pl/energia/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "HK": {
+      "name_zh": "中国香港",
+      "org_priority": "香港卫生防护中心 CHP",
+      "candidate_url": "https://www.chp.gov.hk/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.chp.gov.hk/",
+        "status": null,
+        "final_url": "https://www.chp.gov.hk/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "RO": {
+      "name_zh": "罗马尼亚",
+      "org_priority": "罗马尼亚国家公共卫生研究所 INSP",
+      "candidate_url": "https://insp.gov.ro/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://insp.gov.ro/",
+        "status": 503,
+        "final_url": "https://insp.gov.ro/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "IN": {
+      "name_zh": "印度",
+      "org_priority": "印度综合疾病监测项目 IDSP",
+      "candidate_url": "https://idsp.mohfw.gov.in/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://idsp.mohfw.gov.in/",
+        "status": null,
+        "final_url": "https://idsp.mohfw.gov.in/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "IR": {
+      "name_zh": "伊朗伊斯兰共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://behdasht.gov.ir/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://behdasht.gov.ir/",
+        "status": null,
+        "final_url": "https://behdasht.gov.ir/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "PK": {
+      "name_zh": "巴基斯坦",
+      "org_priority": "巴基斯坦国立卫生研究院 NIH",
+      "candidate_url": "https://www.nih.org.pk/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.nih.org.pk/",
+        "status": 200,
+        "final_url": "https://www.nih.org.pk/",
+        "error": null,
+        "title": ">National Institutes  of Health, Islamabad Pakistan",
+        "redirected": false
+      }
+    },
+    "NP": {
+      "name_zh": "尼泊尔",
+      "org_priority": "尼泊尔流行病学与疾病控制司 EDCD",
+      "candidate_url": "https://edcd.gov.np/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://edcd.gov.np/",
+        "status": 200,
+        "final_url": "https://edcd.gov.np/",
+        "error": null,
+        "title": ">EDCD|Home",
+        "redirected": false
+      }
+    },
+    "AE": {
+      "name_zh": "阿拉伯联合酋长国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://mohap.gov.ae/en/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://mohap.gov.ae/en/",
+        "status": null,
+        "final_url": "https://mohap.gov.ae/en/",
+        "error": "证书错误",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "JO": {
+      "name_zh": "约旦",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://moh.gov.jo/Default/Ar",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://moh.gov.jo/Default/Ar",
+        "status": null,
+        "final_url": "https://moh.gov.jo/Default/Ar",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "QA": {
+      "name_zh": "卡塔尔",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.moph.gov.qa/arabic/Pages/default.aspx",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.moph.gov.qa/arabic/Pages/default.aspx",
+        "status": 200,
+        "final_url": "https://www.moph.gov.qa/arabic/Pages/default.aspx",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "NI": {
+      "name_zh": "尼加拉瓜",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.minsa.gob.ni/",
+      "region_cross_org": "PAHO流行病学警报与更新",
+      "region_cross_url": "https://www.paho.org/en/epidemiological-alerts-and-updates",
+      "probe": {
+        "url": "https://www.minsa.gob.ni/",
+        "status": 200,
+        "final_url": "https://www.minsa.gob.ni/",
+        "error": null,
+        "title": ">Inicio | MINSA",
+        "redirected": false
+      }
+    },
+    "SE": {
+      "name_zh": "瑞典",
+      "org_priority": "瑞典公共卫生局",
+      "candidate_url": "https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/",
+        "status": 200,
+        "final_url": "https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/",
+        "error": null,
+        "title": ">The Public Health Agency of Sweden",
+        "redirected": false
+      }
+    },
+    "LR": {
+      "name_zh": "利比里亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://moh.gov.lr/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://moh.gov.lr/",
+        "status": 200,
+        "final_url": "https://moh.gov.lr/",
+        "error": null,
+        "title": ">Ministry of Health &#8211; Official Website",
+        "redirected": false
+      }
+    },
+    "SK": {
+      "name_zh": "斯洛伐克",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.health.gov.sk/Titulka",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.health.gov.sk/Titulka",
+        "status": 200,
+        "final_url": "https://www.health.gov.sk/Titulka",
+        "error": null,
+        "title": ">Ministerstvo zdravotníctva Slovenskej republiky",
+        "redirected": false
+      }
+    },
+    "KW": {
+      "name_zh": "科威特",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.moh.gov.kw/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.moh.gov.kw/",
+        "status": null,
+        "final_url": "https://www.moh.gov.kw/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "SI": {
+      "name_zh": "斯洛文尼亚",
+      "org_priority": "斯洛文尼亚国家公共卫生研究所 NIJZ",
+      "candidate_url": "https://nijz.si/en/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://nijz.si/en/",
+        "status": 200,
+        "final_url": "https://nijz.si/en/",
+        "error": null,
+        "title": ">For better public health | Nijz",
+        "redirected": false
+      }
+    },
+    "SA": {
+      "name_zh": "沙特阿拉伯",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.moh.gov.sa/pages/default.aspx",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.moh.gov.sa/pages/default.aspx",
+        "status": 200,
+        "final_url": "https://www.moh.gov.sa/pages/default.aspx",
+        "error": null,
+        "title": ">Request Rejected",
+        "redirected": false
+      }
+    },
+    "TH": {
+      "name_zh": "泰国",
+      "org_priority": "泰国疾病控制厅 DDC",
+      "candidate_url": "https://ddc.moph.go.th/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://ddc.moph.go.th/",
+        "status": 200,
+        "final_url": "https://ddc.moph.go.th/",
+        "error": null,
+        "title": ">กรมควบคุมโรค",
+        "redirected": false
+      }
+    },
+    "UG": {
+      "name_zh": "乌干达",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.health.go.ug/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://www.health.go.ug/",
+        "status": null,
+        "final_url": "https://www.health.go.ug/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "SG": {
+      "name_zh": "新加坡",
+      "org_priority": "新加坡传染病管理局 CDA",
+      "candidate_url": "https://www.cda.gov.sg/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.cda.gov.sg/",
+        "status": 200,
+        "final_url": "https://www.cda.gov.sg/",
+        "error": null,
+        "title": ">Home | Communicable Diseases Agency",
+        "redirected": false
+      }
+    },
+    "RW": {
+      "name_zh": "卢旺达",
+      "org_priority": "卢旺达生物医学中心 RBC",
+      "candidate_url": "https://rbc.gov.rw/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://rbc.gov.rw/",
+        "status": 200,
+        "final_url": "https://rbc.gov.rw/",
+        "error": null,
+        "title": ">RBC: Home",
+        "redirected": false
+      }
+    },
+    "SZ": {
+      "name_zh": "斯威士兰",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.gov.sz/index.php/ministries-departments/ministry-of-health",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://www.gov.sz/index.php/ministries-departments/ministry-of-health",
+        "status": 200,
+        "final_url": "https://www.gov.sz/index.php/ministries-departments/ministry-of-health",
+        "error": null,
+        "title": ">About Us",
+        "redirected": false
+      }
+    },
+    "US": {
+      "name_zh": "美利坚合众国",
+      "org_priority": "美国疾病控制与预防中心 CDC",
+      "candidate_url": "https://www.cdc.gov/",
+      "region_cross_org": "PAHO流行病学警报与更新",
+      "region_cross_url": "https://www.paho.org/en/epidemiological-alerts-and-updates",
+      "probe": {
+        "url": "https://www.cdc.gov/",
+        "status": 403,
+        "final_url": "https://www.cdc.gov/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "TT": {
+      "name_zh": "特立尼达和多巴哥",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://health.gov.tt/",
+      "region_cross_org": "PAHO流行病学警报与更新",
+      "region_cross_url": "https://www.paho.org/en/epidemiological-alerts-and-updates",
+      "probe": {
+        "url": "https://health.gov.tt/",
+        "status": 200,
+        "final_url": "https://health.gov.tt/",
+        "error": null,
+        "title": ">Home | Ministry of Health",
+        "redirected": false
+      }
+    },
+    "MA": {
+      "name_zh": "摩洛哥",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.sante.gov.ma/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://www.sante.gov.ma/",
+        "status": null,
+        "final_url": "https://www.sante.gov.ma/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "ZM": {
+      "name_zh": "赞比亚",
+      "org_priority": "赞比亚国家公共卫生研究所 ZNPHI",
+      "candidate_url": "https://znphi.co.zm/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://znphi.co.zm/",
+        "status": null,
+        "final_url": "https://znphi.co.zm/",
+        "error": "证书错误",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "MD": {
+      "name_zh": "摩尔多瓦共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://ms.gov.md/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://ms.gov.md/",
+        "status": null,
+        "final_url": "https://ms.gov.md/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "UA": {
+      "name_zh": "乌克兰",
+      "org_priority": "乌克兰公共卫生中心 PHC",
+      "candidate_url": "https://phc.org.ua/en",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://phc.org.ua/en",
+        "status": 200,
+        "final_url": "https://phc.org.ua/en",
+        "error": null,
+        "title": ">Центр громадського здоров’я України | МОЗ",
+        "redirected": false
+      }
+    },
+    "ZW": {
+      "name_zh": "津巴布韦",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.mohcc.gov.zw/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://www.mohcc.gov.zw/",
+        "status": null,
+        "final_url": "https://www.mohcc.gov.zw/",
+        "error": "证书错误",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "UZ": {
+      "name_zh": "乌兹别克斯坦",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://gov.uz/en/ssv",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://gov.uz/en/ssv",
+        "status": 200,
+        "final_url": "https://gov.uz/en/ssv",
+        "error": null,
+        "title": ">Ministry of Health of the Republic of Uzbekistan",
+        "redirected": false
+      }
+    },
+    "SD": {
+      "name_zh": "苏丹",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://fmoh.gov.sd/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://fmoh.gov.sd/",
+        "status": 302,
+        "final_url": "https://fmoh.gov.sd/",
+        "error": null,
+        "title": null,
+        "redirected": false
+      }
+    },
+    "VE": {
+      "name_zh": "委内瑞拉玻利瓦尔共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://mpps.gob.ve",
+      "region_cross_org": "PAHO流行病学警报与更新",
+      "region_cross_url": "https://www.paho.org/en/epidemiological-alerts-and-updates",
+      "probe": {
+        "url": "https://mpps.gob.ve",
+        "status": 200,
+        "final_url": "https://mpps.gob.ve",
+        "error": null,
+        "title": ">Inicio - MPPS",
+        "redirected": false
+      }
+    },
+    "NL": {
+      "name_zh": "荷兰",
+      "org_priority": "荷兰国家公共卫生与环境研究院 RIVM",
+      "candidate_url": "https://www.rivm.nl/en",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.rivm.nl/en",
+        "status": null,
+        "final_url": "https://www.rivm.nl/en",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "TZ": {
+      "name_zh": "坦桑尼亚联合共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.moh.go.tz/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://www.moh.go.tz/",
+        "status": 200,
+        "final_url": "https://www.moh.go.tz/",
+        "error": null,
+        "title": ">Home|Ministry of Health",
+        "redirected": false
+      }
+    },
+    "RS": {
+      "name_zh": "塞尔维亚",
+      "org_priority": "塞尔维亚巴图特公共卫生研究所",
+      "candidate_url": "https://www.batut.org.rs/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.batut.org.rs/",
+        "status": null,
+        "final_url": "https://www.batut.org.rs/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "OM": {
+      "name_zh": "阿曼",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.moh.gov.om/ar",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.moh.gov.om/ar",
+        "status": 200,
+        "final_url": "https://www.moh.gov.om/ar",
+        "error": null,
+        "title": ">سلطنة عُمان | البوابة الصحية الإلكترونية",
+        "redirected": false
+      }
+    },
+    "RU": {
+      "name_zh": "俄罗斯",
+      "org_priority": "俄罗斯消费者权益保护和公益监督局 Rospotrebnadzor",
+      "candidate_url": "https://www.rospotrebnadzor.ru/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.rospotrebnadzor.ru/",
+        "status": null,
+        "final_url": "https://www.rospotrebnadzor.ru/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "PY": {
+      "name_zh": "巴拉圭",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.mspbs.gov.py/",
+      "region_cross_org": "PAHO流行病学警报与更新",
+      "region_cross_url": "https://www.paho.org/en/epidemiological-alerts-and-updates",
+      "probe": {
+        "url": "https://www.mspbs.gov.py/",
+        "status": null,
+        "final_url": "https://www.mspbs.gov.py/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "AU": {
+      "name_zh": "澳大利亚",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.health.gov.au/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.health.gov.au/",
+        "status": null,
+        "final_url": "https://www.health.gov.au/",
+        "error": "未知错误:TimeoutError",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "JM": {
+      "name_zh": "牙买加",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.moh.gov.jm/",
+      "region_cross_org": "PAHO流行病学警报与更新",
+      "region_cross_url": "https://www.paho.org/en/epidemiological-alerts-and-updates",
+      "probe": {
+        "url": "https://www.moh.gov.jm/",
+        "status": 200,
+        "final_url": "https://www.moh.gov.jm/",
+        "error": null,
+        "title": ">Ministry of Health &amp; Wellness, Jamaica",
+        "redirected": false
+      }
+    },
+    "SY": {
+      "name_zh": "阿拉伯叙利亚共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://moh.gov.sy/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://moh.gov.sy/",
+        "status": null,
+        "final_url": "https://moh.gov.sy/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "CA": {
+      "name_zh": "加拿大",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.canada.ca/en/public-health.html",
+      "region_cross_org": "PAHO流行病学警报与更新",
+      "region_cross_url": "https://www.paho.org/en/epidemiological-alerts-and-updates",
+      "probe": {
+        "url": "https://www.canada.ca/en/public-health.html",
+        "status": null,
+        "final_url": "https://www.canada.ca/en/public-health.html",
+        "error": "未知错误:TimeoutError",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "TN": {
+      "name_zh": "突尼斯",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.sante.gov.tn/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://www.sante.gov.tn/",
+        "status": null,
+        "final_url": "https://www.sante.gov.tn/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "TR": {
+      "name_zh": "土耳其",
+      "org_priority": "土耳其公共卫生总局",
+      "candidate_url": "https://hsgm.saglik.gov.tr/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://hsgm.saglik.gov.tr/",
+        "status": null,
+        "final_url": "https://hsgm.saglik.gov.tr/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "PT": {
+      "name_zh": "葡萄牙",
+      "org_priority": "葡萄牙卫生总局 DGS",
+      "candidate_url": "https://www.dgs.pt/",
+      "region_cross_org": "ECDC每周威胁报告",
+      "region_cross_url": "https://www.ecdc.europa.eu/en/weekly-threats-reports",
+      "probe": {
+        "url": "https://www.dgs.pt/",
+        "status": 200,
+        "final_url": "https://www.dgs.pt/",
+        "error": null,
+        "title": ">Direção-Geral da Saúde",
+        "redirected": false
+      }
+    },
+    "TW": {
+      "name_zh": "中国台北",
+      "org_priority": "台湾疾病管制署 CDC",
+      "candidate_url": "https://www.cdc.gov.tw/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.cdc.gov.tw/",
+        "status": null,
+        "final_url": "https://www.cdc.gov.tw/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "VN": {
+      "name_zh": "越南",
+      "org_priority": "越南疾病控制中心 VNCDC",
+      "candidate_url": "https://vncdc.gov.vn/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://vncdc.gov.vn/",
+        "status": null,
+        "final_url": "https://vncdc.gov.vn/",
+        "error": "连接失败:tunnel connection failed: 502 bad gatewa",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "KP": {
+      "name_zh": "朝鲜民主主义人民共和国",
+      "org_priority": "国家卫生主管部门/公共卫生官方入口",
+      "candidate_url": "https://www.who.int/dprkorea/",
+      "region_cross_org": "WHO疾病暴发新闻",
+      "region_cross_url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "probe": {
+        "url": "https://www.who.int/dprkorea/",
+        "status": null,
+        "final_url": "https://www.who.int/dprkorea/",
+        "error": "未知错误:TimeoutError",
+        "title": null,
+        "redirected": false
+      }
+    },
+    "ZA": {
+      "name_zh": "南非",
+      "org_priority": "南非国家传染病研究所 NICD",
+      "candidate_url": "https://www.nicd.ac.za/",
+      "region_cross_org": "Africa CDC疾病暴发页",
+      "region_cross_url": "https://africacdc.org/disease-outbreak/",
+      "probe": {
+        "url": "https://www.nicd.ac.za/",
+        "status": 200,
+        "final_url": "https://www.nicd.ac.za/",
+        "error": null,
+        "title": ">NICD The National Institute For Communicable Diseases",
+        "redirected": false
+      }
+    }
+  }
+}

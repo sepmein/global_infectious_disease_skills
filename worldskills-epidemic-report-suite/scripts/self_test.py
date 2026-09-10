@@ -19,6 +19,7 @@ from openpyxl import Workbook
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
+SKILL_DIR = SCRIPT_DIR.parent
 
 
 def set_font(run, name: str, size: float, bold: bool | None = None) -> None:
@@ -62,34 +63,31 @@ def create_official_daily_fixture(docx_path: Path, xlsx_path: Path, participants
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
     title.paragraph_format.line_spacing_rule = WD_LINE_SPACING.SINGLE
     title.paragraph_format.line_spacing = 1.0
-    run = title.add_run("世界技能大赛相关国家传染病疫情监测日报")
+    run = title.add_run("\u3000\u3000世界技能大赛相关国家传染病疫情监测日报")
     set_font(run, "方正小标宋简体", 22, False)
-    document.add_paragraph()
 
-    addressee = add_formatted_paragraph(document, "中心（院）有关部门：", "仿宋_GB2312")
-    addressee.alignment = WD_ALIGN_PARAGRAPH.LEFT
-    add_formatted_paragraph(document, "本报告为公文版式自动校验测试文本。", "仿宋_GB2312", first_line=True)
+    report_date = add_formatted_paragraph(document, "（2026年9月7日）", "楷体_GB2312", bold=True)
+    report_date.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    add_formatted_paragraph(
+        document,
+        "检索说明：本期覆盖动态名单，并与上一版日报和历史底表比较。",
+        "仿宋_GB2312",
+        first_line=True,
+    )
     for heading in (
         "一、近期赛事相关国家和地区疫情总体概况",
-        "二、当日新增疫情动态",
-        "三、对上海市传染病输入风险综合研判",
-        "附：主要信息来源",
+        "二、当日新增及变化疫情动态",
+        "三、其他未更新传染病疫情",
+        "四、对上海市传染病输入风险综合研判",
+        "附：信息来源",
     ):
-        add_formatted_paragraph(document, heading, "黑体", bold=False, first_line=True)
+        heading_paragraph = add_formatted_paragraph(document, heading, "黑体", bold=False, first_line=True)
+        if heading == "附：信息来源":
+            heading_paragraph.paragraph_format.page_break_before = True
         if heading.startswith("一、"):
             add_formatted_paragraph(document, "（一）二级标题测试", "楷体_GB2312", bold=True, first_line=True)
             add_formatted_paragraph(document, "1. 三级标题测试", "仿宋_GB2312", bold=False, first_line=True)
         add_formatted_paragraph(document, "本段用于验证正文的字体、缩进和固定行距。", "仿宋_GB2312", first_line=True)
-
-    issuer = add_formatted_paragraph(document, "中心（院）", "仿宋_GB2312")
-    issuer.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-    document_date = add_formatted_paragraph(document, "2026年9月7日", "仿宋_GB2312")
-    p_pr = document_date._p.get_or_add_pPr()
-    ind = p_pr.find(qn("w:ind"))
-    if ind is None:
-        ind = OxmlElement("w:ind")
-        p_pr.append(ind)
-    ind.set(qn("w:rightChars"), "400")
     document.save(docx_path)
 
     workbook = Workbook()
@@ -125,6 +123,28 @@ def run(case_id: str, command: list[str], expected_code: int = 0) -> None:
 def main() -> int:
     python = sys.executable
     run("BVT_001_SCOPE_DEFAULT", [python, str(SCRIPT_DIR / "validate_scope.py")])
+
+    from validate_deliverables import validate_baseline_template_format
+
+    template = SKILL_DIR / "assets" / "世界技能大赛传染病疫情摸底报告_写作模板.docx"
+    template_errors = validate_baseline_template_format(Document(template))
+    if template_errors:
+        raise AssertionError(f"BVT_011 baseline template format errors: {template_errors}")
+    print("BVT_011_BASELINE_TEMPLATE_FORMAT PASS")
+
+    intro_index = SKILL_DIR / "references" / "disease-intro-index.csv"
+    with intro_index.open("r", encoding="utf-8-sig", newline="") as handle:
+        intro_rows = list(csv.DictReader(handle))
+    missing_intro_files = [
+        row["重点病种"]
+        for row in intro_rows
+        if not (SKILL_DIR / "references" / "疾病简介" / row["疾病简介文件"]).is_file()
+    ]
+    if len(intro_rows) != 22 or missing_intro_files:
+        raise AssertionError(
+            f"BVT_012 intro mapping count={len(intro_rows)} missing={missing_intro_files}"
+        )
+    print("BVT_012_DISEASE_INTRO_INDEX PASS")
 
     with tempfile.TemporaryDirectory(prefix="epidemic-skill-test-") as temp_name:
         temp = Path(temp_name)

@@ -1,0 +1,27 @@
+{
+  "BS": {
+    "status": 403,
+    "final": "https://www.mohw.gov.bs/",
+    "title": null
+  },
+  "FO": {
+    "status": 200,
+    "final": "https://www.homr.fo/",
+    "title": null
+  },
+  "KH": {
+    "status": 200,
+    "final": "https://cdcmoh.gov.kh/",
+    "title": null
+  },
+  "KN": {
+    "status": 200,
+    "final": "https://www.sknis.gov.kn/",
+    "title": null
+  },
+  "VG": {
+    "status": 200,
+    "final": "https://www.gov.vg/",
+    "title": null
+  }
+}
